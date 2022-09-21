@@ -1,0 +1,111 @@
+@media(max-width:1318px){
+    .cards{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media(max-width:995px){
+    .header__family{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .header{
+        height: 1000px;
+      
+    }
+    .header__img{
+     max-width: 300px;
+     width: 100%;   
+    }
+}
+@media(max-width:815px){
+    .menu__btn{
+        display: block;
+        border: none;
+        background: transparent;
+        cursor: pointer;
+    }
+    .nav__list{
+        flex-direction: column;
+        padding-top: 20px;
+        padding-right: 20px;
+        row-gap: 20px;
+        backdrop-filter: blur(20px);
+        position: fixed;
+        right: 0;
+        top: 0;
+        height: 100%;
+        padding-left: 20px;
+        box-shadow: -1px 1px 16px 0 rgba(0, 0, 0, 0.534);
+        z-index: 999;
+        transform: translateX(105%);
+        transition: 0.5s;
+    }
+    .menu__btn:focus+.nav__list{
+        transform: translateX(0%);
+    }
+     
+    .works__img{
+        transform: translateX(-105%);
+    }
+    .header__title{
+        text-align: center;
+    }
+    .built{
+        flex-direction: column;
+        align-items: center;
+    }
+    .built__title{
+        text-align: center;
+    }
+    .built__txt{
+     text-align: center;   
+    }
+    .assist{
+        flex-direction: column;
+        align-items: center;
+    }
+    .grief {
+        padding-top: 0px;
+    }
+    .security {
+        transform: translateY(-258px);
+    }
+    .header__family{
+     flex-wrap: wrap;
+     align-items: center;
+    }
+}
+@media(max-width:753px){
+    .footer__btn{
+       flex-direction: column;
+    }
+}
+@media(max-width:620px){
+   .seen__content{
+    flex-wrap: wrap;
+    align-items: center;
+   } 
+   .works{
+    flex-direction: column;
+    align-items: center;
+   }
+   .header__img{
+    width: 330px;
+}
+   .header{
+    height: 1030px;
+   }
+   .header__title{
+    font-size: 38px;
+    line-height: 40px;
+    text-align: center;
+   }
+   .header__txt{
+    text-align: center;
+   }
+   
+}
